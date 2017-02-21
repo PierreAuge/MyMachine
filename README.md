@@ -12,12 +12,16 @@ Meaning? You should be able to use the building blocks presented in this toolset
     The Rail Runner is assembled using the following parts:
       608 linear ball bearings
       5/16 or 8mm socket cap screws
+      
+      Printed with PLA or ABS at 55% infill
 
  Small Linear Bearing Blocks (Pelican Printer) - a set of components used in the construction of small low latency linear motion systems such as those used in CNC Mills and 3D Printers. These components allow for customization of NC motion control systems.
   
     The Small bearing blocks are assembled using the following parts:
       608 linear ball bearings
       5/16 or 8mm socket cap screws
+      
+      Printed with PLA or ABS at 55% infill
 
   Drive Shaft Idler - a 3D printable or machineable pressfit bearing block which fits inside standard square tubing allowing for parallel drive of belt or chain actuated linear motion systems.
   
