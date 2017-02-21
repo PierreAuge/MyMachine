@@ -8,8 +8,8 @@ Meaning? You should be able to use the building blocks presented in this toolset
   Currently the tool set includes 
   
  Large Linear Bearing Block (Rail Runner) - a configurable linear bearing block designed to be 3D printed or injection molded. It's design allows it to be used with normally available, cost effective, square or rectangular structural tubing rather than very expensive linear motion rails. The Rail Runner is assembled using the following parts:
-    608 linear ball bearings
-    5/16 or 8mm socket cap screws
+    - 608 linear ball bearings
+    - 5/16 or 8mm socket cap screws
 
  Small Linear Bearing Blocks (Pelican Printer) - a set of components used in the construction of small low latency linear motion systems such as those used in CNC Mills and 3D Printers. These components allow for customization of NC motion control systems.
 
