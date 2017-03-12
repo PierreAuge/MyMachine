@@ -25,7 +25,7 @@ signed long actualPoint = 0;
 byte readByte = 0;
 
 #define SENSOR_A 3    //Sets the DIGITAL INPUT pin for the first Optical Position Sensor
-#define SENSOR_B 4    //Sets the DIGITAL INPUT pin for the first Optical Position Sensor
+#define SENSOR_B 4    //Sets the DIGITAL INPUT pin for the second Optical Position Sensor
 #define ENABLE_R 8
 #define ENABLE_L 9
 
