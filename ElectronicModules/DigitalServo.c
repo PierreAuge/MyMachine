@@ -1,7 +1,7 @@
 /*
 Digital Servo Motor
 Source originally derived from: www.HomoFaciens.de/technics-base-circuits-encoder-disc_en_navion.htm
-Modified for MyMachine project by: Pierre Auge http://
+Modified for MyMachine project by: Pierre Auge http://github.com/PierreAuge/MyMachine
 This code allows an Arduino Mini/ProMini or any other ATMEGA328 AVR chip to function as a digital servo driver module in 
 concert with a PWM driven dual H-Bridge DC Motor driver.
 
