@@ -12,7 +12,7 @@ Step and Direction driven stepper system.
 #include <util/delay.h>
 
 const int stepPin = 2;
-const int dirPin = 1;
+const int DIR_PIN = 7;
 // Note that one full rotation of my test motor is 327 steps or a 1.1degree step angle at the output shaft
 
 int stepStatus = 0; //Current status of the stepper motor
@@ -60,7 +60,7 @@ void establishContact() {
 void setup() {
   
   pinMode(stepPin, INPUT);
-  pinMode(dirPin, INPUT);
+  pinMode(DIR_PIN, INPUT);
   pinMode(SENSOR_A, INPUT);
   pinMode(SENSOR_B, INPUT);   
   pinMode(LED, OUTPUT);  
