@@ -49,14 +49,6 @@ byte readByte = 0;
 
 bool dir = false;
 
-void establishContact() {
-  while (Serial.available() <= 0) {
-    Serial.print('X');     // send a capital X to indicate that Arduino is running
-    delay(300);
-  }
-}
-
-
 void setup() {
   
   pinMode(stepPin, INPUT);
