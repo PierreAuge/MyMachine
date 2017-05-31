@@ -1,8 +1,9 @@
-#include <Arduino.h>
-
 /* This one is not using any PinChangeInterrupt library */
 
 /*
+
+   https://github.com/misan/dcservo
+
    This program uses an Arduino for a closed-loop control of a DC-motor.
    Motor motion is detected by a quadrature encoder.
    Two inputs named STEP and DIR allow changing the target position.
@@ -10,13 +11,20 @@
    Serial input can be used to feed a new location for the servo (no CR LF).
 
    Pins used:
-   Digital inputs 8 & 9 are connected to the two encoder signals (AB).
+   Digital inputs 8 & 2 are connected to the two encoder signals (AB).
+      2 being attached to the Arduino's hardware interrupt
    Digital input 3 is the STEP input.
-   Analog input 0 is the DIR input.
-   Digital outputs 5 & 6 control the PWM outputs for the motor (I am using IBT-2 H-Bridge).
+   Analog input 0 is the DIR input.   
+   Digital outputs 5 & 6 control the left and right PWM outputs for the motor.
    Digital outputs 4 and 7 are enable pins for dual-H-bridge
    Please note PID gains kp, ki, kd need to be tuned to each different setup.
+   
+   This program was modified very slightly by Pierre Auge for use with the IBT-2 Dual H-Bridge 43amp (peak) motor driver. 
+   Making a very inexpensive controller for a massive brushed DCServo/Stepper.
+   
+   https://github.com/PierreAuge/MyMachine
 */
+
 #include <EEPROM.h>
 #include <PID_v1.h>
 #define encoder0PinA  2  // PD2;
